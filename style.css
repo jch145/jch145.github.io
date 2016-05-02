@@ -1,0 +1,148 @@
+@import url(https://fonts.googleapis.com/css?family=Lora|PT+Serif|Raleway|Arimo|Shadows+Into+Light);
+
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* background */
+
+html { 
+  background: url(images/bg-image.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: -1;
+
+}
+
+/* for navigation bar*/
+
+.nav{
+    position: absolute;
+    top: 3%;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #777;
+    opacity: 0.7;
+}
+
+li {
+margin: auto;
+display: inline-block;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+    font-family: 'Arimo', sans-serif;
+    font-size: 14px;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+/* this is for the text in the middle of the home page*/
+
+.middle{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+span {
+font-family: 'Shadows Into Light', cursive;
+font-size: 1.5em;
+text-shadow: 1px 1px #333333;
+}
+
+#motto {
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+    color: white;
+}
+
+button {
+position: fixed;
+top: 65%;
+left: 50%;
+  transform: translate(-50%, -50%);
+background-color: transparent;
+    border: 1px solid #fff;
+    color: white;
+    padding: 3px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* about page */
+
+#about{
+font-family: Arimo;
+color: #fff;
+background-color: #777;
+margin: auto;
+padding: 5px 20px;
+text-align: center;
+opacity: 0.7;
+text-decoration: none;
+position: absolute;
+top: 20%;
+left: 20%;
+right: 20%;
+} 
+
+
+/* for recipes */
+div.img {
+    border: none;
+    position: relative;
+    top: 85px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    
+}
+
+div.img:hover {
+    border: none;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 10px;
+    text-align: center;
+    font-family: Arimo, sans-serif;
+    color: #fff;
+}
+
+
+/* no footer yet but leaving this here in case i decide to have a footer */
+
+.footer{
+    background-color: purple;
+}
